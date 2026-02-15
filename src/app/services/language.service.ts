@@ -29,7 +29,7 @@ export class LanguageService {
   }
 
   loadTranslations(file: string): Observable<any> {
-    return this.http.get(`/assets/data/${file}.json`).pipe(
+    return this.http.get(`assets/data/${file}.json`).pipe(
       tap((data: any) => {
         this.translations.set(data);
       })
