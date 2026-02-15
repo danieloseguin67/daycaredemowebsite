@@ -1,0 +1,33 @@
+<header class="header">
+  <div class="header-container">
+    <div class="logo">
+      <a routerLink="/" (click)="closeMenu()">{{ siteName || 'Little Stars Daycare' }}</a>
+    </div>
+
+    <button class="menu-toggle" (click)="toggleMenu()" [class.active]="isMenuOpen">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav" [class.open]="isMenuOpen">
+      <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" (click)="closeMenu()">
+        {{ content.home || 'Home' }}
+      </a>
+      <a routerLink="/programs" routerLinkActive="active" (click)="closeMenu()">
+        {{ content.programs || 'Programs' }}
+      </a>
+      <a routerLink="/gallery" routerLinkActive="active" (click)="closeMenu()">
+        {{ content.gallery || 'Gallery' }}
+      </a>
+      <a routerLink="/contact" routerLinkActive="active" (click)="closeMenu()">
+        {{ content.contact || 'Contact' }}
+      </a>
+      
+      <select class="language-select" (change)="onLanguageChange($event)" [value]="getCurrentLanguage()">
+        <option value="en">English</option>
+        <option value="fr">French</option>
+      </select>
+    </nav>
+  </div>
+</header>

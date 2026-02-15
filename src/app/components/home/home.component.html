@@ -1,0 +1,156 @@
+<div class="home-container">
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">{{ content.hero.title }}</h1>
+      <p class="hero-subtitle">{{ content.hero.subtitle }}</p>
+      <button class="cta-button" (click)="openModal()">{{ content.hero.cta || 'Schedule a Visit' }}</button>
+    </div>
+    <div class="hero-image">
+      <img src="assets/images/promo.jpeg" alt="Daycare" />
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about">
+    <div class="container">
+      <h2 class="section-title">{{ content.about.title }}</h2>
+      <p class="about-description">{{ content.about.description }}</p>
+      
+      <div class="mission">
+        <p>{{ content.about.mission }}</p>
+      </div>
+
+      <div class="features">
+        <div class="feature-card" *ngFor="let feature of content.about.features">
+          <div class="feature-icon">{{ feature.icon }}</div>
+          <h3>{{ feature.title }}</h3>
+          <p>{{ feature.description }}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Schedule Visit Modal -->
+  <div class="modal-overlay" *ngIf="showModal" (click)="closeModal()">
+    <div class="modal-content" (click)="$event.stopPropagation()">
+      <button class="modal-close" (click)="closeModal()" aria-label="Close modal">&times;</button>
+      
+      <div *ngIf="!formSubmitted">
+        <h2 class="modal-title">Schedule a Visit</h2>
+        <p class="modal-subtitle">We'd love to show you around! Fill out the form below and we'll get back to you soon.</p>
+        
+        <form class="visit-form" (ngSubmit)="submitForm()">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your Name *</label>
+              <input 
+                type="text" 
+                id="name" 
+                [(ngModel)]="visitForm.name" 
+                name="name"
+                required 
+                class="form-input"
+                placeholder="John Doe"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input 
+                type="email" 
+                id="email" 
+                [(ngModel)]="visitForm.email" 
+                name="email"
+                required 
+                class="form-input"
+                placeholder="john@example.com"
+              />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">Phone Number *</label>
+              <input 
+                type="tel" 
+                id="phone" 
+                [(ngModel)]="visitForm.phone" 
+                name="phone"
+                required 
+                class="form-input"
+                placeholder="(555) 123-4567"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="childAge">Child's Age</label>
+              <input 
+                type="text" 
+                id="childAge" 
+                [(ngModel)]="visitForm.childAge" 
+                name="childAge"
+                class="form-input"
+                placeholder="e.g., 2 years old"
+              />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="preferredDate">Preferred Date *</label>
+              <input 
+                type="date" 
+                id="preferredDate" 
+                [(ngModel)]="visitForm.preferredDate" 
+                name="preferredDate"
+                required 
+                class="form-input"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="preferredTime">Preferred Time *</label>
+              <select 
+                id="preferredTime" 
+                [(ngModel)]="visitForm.preferredTime" 
+                name="preferredTime"
+                required 
+                class="form-input"
+              >
+                <option value="">Select a time</option>
+                <option value="9:00 AM">9:00 AM</option>
+                <option value="10:00 AM">10:00 AM</option>
+                <option value="11:00 AM">11:00 AM</option>
+                <option value="1:00 PM">1:00 PM</option>
+                <option value="2:00 PM">2:00 PM</option>
+                <option value="3:00 PM">3:00 PM</option>
+                <option value="4:00 PM">4:00 PM</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Additional Information</label>
+            <textarea 
+              id="message" 
+              [(ngModel)]="visitForm.message" 
+              name="message"
+              rows="4" 
+              class="form-input"
+              placeholder="Any questions or special requirements?"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="submit-button">Schedule Visit</button>
+        </form>
+      </div>
+
+      <div *ngIf="formSubmitted" class="success-message">
+        <div class="success-icon">✓</div>
+        <h2>Thank You!</h2>
+        <p>Your visit has been scheduled. We'll contact you shortly to confirm the details.</p>
+      </div>
+    </div>
+  </div>
+</div>

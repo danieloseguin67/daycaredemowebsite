@@ -1,0 +1,24 @@
+<div class="programs-container" *ngIf="content.title">
+  <section class="programs">
+    <div class="container">
+      <h1 class="page-title">{{ content.title }}</h1>
+      <p class="page-subtitle">{{ content.subtitle }}</p>
+
+      <div class="programs-grid">
+        <div class="program-card" *ngFor="let program of content.list">
+          <div class="program-header">
+            <h2>{{ program.name }}</h2>
+            <span class="age-badge">{{ program.age }}</span>
+          </div>
+          <p class="program-description">{{ program.description }}</p>
+          <ul class="features-list">
+            <li *ngFor="let feature of program.features">
+              <span class="check-icon">✓</span>
+              {{ feature }}
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

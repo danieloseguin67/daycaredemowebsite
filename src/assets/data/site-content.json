@@ -1,0 +1,214 @@
+{
+  "en": {
+    "siteName": "Little Stars Daycare",
+    "tagline": "Where Every Child Shines Bright",
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "programs": "Programs",
+      "gallery": "Gallery",
+      "contact": "Contact"
+    },
+    "hero": {
+      "title": "Welcome to Little Stars Daycare",
+      "subtitle": "Nurturing Young Minds Since 2020",
+      "cta": "Schedule a Visit"
+    },
+    "about": {
+      "title": "About Us",
+      "description": "At Little Stars Daycare, we provide a safe, nurturing, and stimulating environment where children can learn, play, and grow. Our experienced staff is dedicated to fostering creativity, curiosity, and confidence in every child.",
+      "mission": "Our mission is to provide high-quality early childhood education that prepares children for lifelong learning and success.",
+      "features": [
+        {
+          "icon": "🎨",
+          "title": "Creative Learning",
+          "description": "Engaging activities that promote creativity and imagination"
+        },
+        {
+          "icon": "🏃",
+          "title": "Physical Development",
+          "description": "Outdoor play and activities for healthy physical growth"
+        },
+        {
+          "icon": "📚",
+          "title": "Educational Programs",
+          "description": "Age-appropriate curriculum designed by education experts"
+        },
+        {
+          "icon": "🤝",
+          "title": "Social Skills",
+          "description": "Learning to share, cooperate, and build friendships"
+        }
+      ]
+    },
+    "programs": {
+      "title": "Our Programs",
+      "subtitle": "Age-Appropriate Care and Education",
+      "list": [
+        {
+          "name": "Infant Care",
+          "age": "6 weeks - 18 months",
+          "description": "Tender care for your little ones with focus on sensory development and bonding",
+          "features": [
+            "Low teacher-to-child ratio (1:4)",
+            "Individual feeding and nap schedules",
+            "Daily communication logs",
+            "Safe, clean environment"
+          ]
+        },
+        {
+          "name": "Toddler Program",
+          "age": "18 months - 3 years",
+          "description": "Encouraging exploration and independence through play-based learning",
+          "features": [
+            "Language development activities",
+            "Potty training support",
+            "Creative arts and crafts",
+            "Music and movement"
+          ]
+        },
+        {
+          "name": "Preschool",
+          "age": "3 - 5 years",
+          "description": "Preparing children for kindergarten with comprehensive curriculum",
+          "features": [
+            "Early literacy and math skills",
+            "Science exploration",
+            "Social-emotional learning",
+            "School readiness preparation"
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact Us",
+      "subtitle": "We'd Love to Hear From You",
+      "info": {
+        "address": "123 Sunshine Avenue, Happy Valley, HV 12345",
+        "phone": "(555) 123-4567",
+        "email": "info@littlestarsdaycare.com",
+        "hours": "Monday - Friday: 7:00 AM - 6:00 PM"
+      },
+      "form": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "phone": "Phone Number",
+        "message": "Message",
+        "submit": "Send Message",
+        "success": "Thank you! We'll get back to you soon.",
+        "error": "Sorry, there was an error. Please try again."
+      }
+    },
+    "footer": {
+      "copyright": "© 2026 Little Stars Daycare. All rights reserved.",
+      "social": "Follow Us",
+      "license": "Licensed by the State Department of Education"
+    }
+  },
+  "fr": {
+    "siteName": "Garderie Les Petites Étoiles",
+    "tagline": "Où Chaque Enfant Brille",
+    "nav": {
+      "home": "Accueil",
+      "about": "À Propos",
+      "programs": "Programmes",
+      "gallery": "Galerie",
+      "contact": "Contact"
+    },
+    "hero": {
+      "title": "Bienvenue à la Garderie Les Petites Étoiles",
+      "subtitle": "Nourrir les Jeunes Esprits Depuis 2020",
+      "cta": "Planifier une Visite"
+    },
+    "about": {
+      "title": "À Propos de Nous",
+      "description": "À la Garderie Les Petites Étoiles, nous offrons un environnement sûr, nourrissant et stimulant où les enfants peuvent apprendre, jouer et grandir. Notre personnel expérimenté se consacre à favoriser la créativité, la curiosité et la confiance chez chaque enfant.",
+      "mission": "Notre mission est de fournir une éducation préscolaire de haute qualité qui prépare les enfants à un apprentissage et à un succès à vie.",
+      "features": [
+        {
+          "icon": "🎨",
+          "title": "Apprentissage Créatif",
+          "description": "Activités engageantes qui favorisent la créativité et l'imagination"
+        },
+        {
+          "icon": "🏃",
+          "title": "Développement Physique",
+          "description": "Jeux et activités en plein air pour une croissance physique saine"
+        },
+        {
+          "icon": "📚",
+          "title": "Programmes Éducatifs",
+          "description": "Programme adapté à l'âge conçu par des experts en éducation"
+        },
+        {
+          "icon": "🤝",
+          "title": "Compétences Sociales",
+          "description": "Apprendre à partager, coopérer et construire des amitiés"
+        }
+      ]
+    },
+    "programs": {
+      "title": "Nos Programmes",
+      "subtitle": "Soins et Éducation Adaptés à l'Âge",
+      "list": [
+        {
+          "name": "Soins aux Nourrissons",
+          "age": "6 semaines - 18 mois",
+          "description": "Soins tendres pour vos petits avec accent sur le développement sensoriel et les liens affectifs",
+          "features": [
+            "Faible ratio enseignant-enfant (1:4)",
+            "Horaires individuels d'alimentation et de sieste",
+            "Journaux de communication quotidiens",
+            "Environnement sûr et propre"
+          ]
+        },
+        {
+          "name": "Programme Bambin",
+          "age": "18 mois - 3 ans",
+          "description": "Encourager l'exploration et l'indépendance à travers l'apprentissage par le jeu",
+          "features": [
+            "Activités de développement du langage",
+            "Soutien à l'apprentissage de la propreté",
+            "Arts créatifs et bricolages",
+            "Musique et mouvement"
+          ]
+        },
+        {
+          "name": "Préscolaire",
+          "age": "3 - 5 ans",
+          "description": "Préparer les enfants à la maternelle avec un programme complet",
+          "features": [
+            "Compétences précoces en littératie et mathématiques",
+            "Exploration scientifique",
+            "Apprentissage socio-émotionnel",
+            "Préparation à l'école"
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contactez-Nous",
+      "subtitle": "Nous Aimerions Avoir de Vos Nouvelles",
+      "info": {
+        "address": "123 Avenue du Soleil, Vallée Heureuse, VH 12345",
+        "phone": "(555) 123-4567",
+        "email": "info@garderielespetithesetoiles.com",
+        "hours": "Lundi - Vendredi: 7h00 - 18h00"
+      },
+      "form": {
+        "name": "Votre Nom",
+        "email": "Votre Email",
+        "phone": "Numéro de Téléphone",
+        "message": "Message",
+        "submit": "Envoyer le Message",
+        "success": "Merci! Nous vous répondrons bientôt.",
+        "error": "Désolé, il y a eu une erreur. Veuillez réessayer."
+      }
+    },
+    "footer": {
+      "copyright": "© 2026 Garderie Les Petites Étoiles. Tous droits réservés.",
+      "social": "Suivez-Nous",
+      "license": "Autorisé par le Département d'État de l'Éducation"
+    }
+  }
+}

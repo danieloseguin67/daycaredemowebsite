@@ -1,0 +1,26 @@
+{
+  "en": {
+    "title": "Gallery",
+    "subtitle": "Moments from Our Daycare",
+    "images": [
+      {
+        "id": 1,
+        "url": "assets/images/promo.jpeg",
+        "caption": "Our vibrant learning environment",
+        "category": "facility"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Galerie",
+    "subtitle": "Moments de Notre Garderie",
+    "images": [
+      {
+        "id": 1,
+        "url": "assets/images/promo.jpeg",
+        "caption": "Notre environnement d'apprentissage dynamique",
+        "category": "installation"
+      }
+    ]
+  }
+}
