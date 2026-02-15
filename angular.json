@@ -35,7 +35,8 @@
                 "input": "src/assets",
                 "output": "/assets"
               },
-              "src/.nojekyll"
+              "src/.nojekyll",
+              "src/404.html"
             ],
             "styles": [
               "src/styles.scss"
